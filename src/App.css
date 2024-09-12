@@ -1,0 +1,21 @@
+.container {
+    width: 500px;
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    border: 1px solid #e7e4e4;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 4px 4px 2px 1px rgba(3, 3, 42, 0.2);
+    background: #fff;
+}
+
+.random-btn{
+    margin-bottom: 20px;
+    padding: 10px;
+    background: white;
+    border: 3px solid #e7e4e4;
+    border-radius: 5px;
+    width: max-content;
+}

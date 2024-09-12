@@ -6,9 +6,7 @@ interface Props {
 
 const Numbers: React.FC<Props> = ({number}) => {
     return (
-        <div className="numbers">
             <div className="numberCircle">{number}</div>
-        </div>
     );
 };
 
