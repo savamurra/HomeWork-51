@@ -18,7 +18,9 @@ const App = () => {
     for (countCycles = 1; countCycles <= 5; countCycles++){
       const numberIndex = array.splice(Math.random()*array.length, 1)[0];
       newArrayWithRandomNumber.push(numberIndex);
+      newArrayWithRandomNumber.sort((a, b) => a - b);
     }
+    console.log(newArrayWithRandomNumber);
     setNum(newArrayWithRandomNumber);
   };
 
