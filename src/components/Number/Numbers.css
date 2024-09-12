@@ -1,0 +1,13 @@
+.random-btn{
+    margin-bottom: 20px;
+    background: white;
+    border: 1px solid black;
+}
+
+.numberCircle {
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px solid;
+    width: 20px;
+    margin: 0 auto;
+}
