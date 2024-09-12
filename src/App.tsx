@@ -20,7 +20,7 @@ const App = () => {
       newArrayWithRandomNumber.push(numberIndex);
       newArrayWithRandomNumber.sort((a, b) => a - b);
     }
-    console.log(newArrayWithRandomNumber);
+
     setNum(newArrayWithRandomNumber);
   };
 
